@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    background-color:antiquewhite;
+    width:75vw;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.right-container > img {
+    width: 350px;
+    height: 200px;
+}
+
+p{
+    font-family: 'Roboto'
+}
+
+.last-msg{
+    display: flex;
+    position: absolute;
+    bottom:0.5rem;
+    align-items: baseline;
+}
+.bottom-msg{
+    padding-left:5px;
+}
+
+.flex-items{
+    margin-bottom:5px;
+}

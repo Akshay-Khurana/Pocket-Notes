@@ -1,0 +1,94 @@
+.modal{
+    position:fixed;
+    display: flex;
+    align-items: center;
+    left:22%;
+    z-index : 999;
+    height: 100%;
+    width:27%;
+}
+
+.modal-content {
+    position: relative;
+    width: 400px;
+    height: 160px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+.part-2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-weight: 600;
+    margin-right : 5px;
+}
+
+.heading-modal{
+    margin-bottom: 1rem;
+}
+
+.part-2 input {
+    width: 250px;
+    height: 20px;
+    border-radius: 50px;
+    border:1px solid grey;
+    padding-left:10px;
+}
+
+.part-3{
+    display: flex;
+    align-items: center;
+}
+.colors{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    margin:0 5px;
+}
+
+.create-button{
+    position: absolute;
+    bottom: 1rem;
+    border:none;
+    background-color: black;
+    color:white;
+    padding:0.2rem;
+    border-radius:6px;
+    width:5rem;
+    right:1rem;
+}
+
+.purple{
+    background-color:#B38BFA;
+}
+
+.pink{
+    background-color:#FF79F2;
+}
+
+.orange{
+    background-color:#F19576;
+}
+
+.sky-blue{
+    background-color:#43E6FC;
+}
+
+.blue{
+    background-color:#0047FF;
+}
+
+.purple-blue{
+    background-color:#6691FF;
+}
+
+.part-3 > div{
+    cursor:pointer;
+}

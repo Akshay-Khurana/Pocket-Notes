@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width:25vw;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+}
+
+h2{
+    margin-top:1rem;
+    margin-left:0.5rem;
+}
+
+.create-notes {
+   border-radius: 12px;
+    width: 18vw;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 600;
+    height: 2rem;
+    margin: 1rem;
+    cursor:pointer;
+    display: flex;
+    align-items:center;
+    padding-left:1rem;
+    letter-spacing: 2px;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 32px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    color : white;
+}
+
+.circle1{
+    background-color: #0047FF;
+}
+
+.circle2{
+    background-color: #FFC0C0;;
+}
+
+.circle3{
+    background-color: #F19576;
+}
+
+.circle4{
+    background-color: #43E6FC;
+}
+
+.group-members > div {
+    display:flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.group-members{
+    margin-left:1rem;
+}
+
+.selected-group{
+    background-color:antiquewhite;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.member {
+    padding-left:0.5rem;
+    height: 20%;
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
