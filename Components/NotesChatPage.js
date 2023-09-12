@@ -51,7 +51,7 @@ const NotesChatPage = () => {
     setColor([...color, selectedColor]);
   };
 
-  const handleClickOutside = (e) => {
+  const handleOverlayClick = (e) => {
     e.stopPropagation();
     closeModal();
   }
