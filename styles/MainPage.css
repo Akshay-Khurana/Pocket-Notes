@@ -1,13 +1,15 @@
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Roboto Light'), local('Roboto-Light'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Pru33qjShpZSmG3z6VYwnT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Pru33qjShpZSmG3z6VYwnT8E0i7KZn-EPnyo3HZu7kw.woff)
+      format("woff");
 }
 
-*{
-    margin:0;
+* {
+  margin: 0;
 }
-.main-container{
-    display: flex;
+.main-container {
+  display: flex;
 }

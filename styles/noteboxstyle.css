@@ -1,123 +1,121 @@
-.notes-container{
-    width:75vw;
-    background-color:antiquewhite;
-    height:70vh;
+.notes-container {
+  width: 75vw;
+  background-color: antiquewhite;
+  height: 70vh;
 }
 
 input {
-    width:72vw;
-    height: 25vh;
-    margin:0.5rem 1rem;
-    border-radius: 5px;
-    border:none;
+  width: 72vw;
+  height: 25vh;
+  margin: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
 }
 
-.notes-chat{
-    height:62vh;
-   background-color:antiquewhite;
-   overflow-x: scroll;
-
+.notes-chat {
+  height: 62vh;
+  background-color: antiquewhite;
+  overflow-x: scroll;
 }
 
-.notes-title-bar{
-    height:3rem;
-    background-color: lightgrey;
-    display: flex;
-    align-items: center;
+.notes-title-bar {
+  height: 3rem;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
 }
 
-.send-msg{
-    height: 28vh;
-    width:75vw;
-    background-color: rgb(158, 156, 156);
-    border-bottom-left-radius: 5px;
+.send-msg {
+  height: 28vh;
+  width: 75vw;
+  background-color: rgb(158, 156, 156);
+  border-bottom-left-radius: 5px;
 }
 
 .chat-message {
-    display: flex;
-    margin: 2.5rem 1rem;
-  }
-  
-  .message-time {
-    margin-left:2rem;
-    margin-bottom:0.2rem;
-  }
-  
-  .message-date {
-    margin-left:2rem;
-  }
-  
-  .message-text {
-    margin-left:4rem;
-  }
-  
-  .message-text {
-    word-wrap: break-word; /* Allow long words to wrap */
-  }
-
-  .send{
-    border:none;
-    background-color:white;
-    position: absolute;
-    bottom:2rem;
-    right:2rem;
-  }
-
-  .logo{
-    border-radius:50%;
-    width:35px;
-    height:35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    margin-left: 1rem;
-  }
-
-  .notes-title{
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
-
-  }
-
-  .circle1{
-    background-color: #0047FF;
+  display: flex;
+  margin: 2.5rem 1rem;
 }
 
-.circle2{
-    background-color: #FFC0C0;;
+.message-time {
+  margin-left: 2rem;
+  margin-bottom: 0.2rem;
 }
 
-.circle3{
-    background-color: #F19576;
+.message-date {
+  margin-left: 2rem;
 }
 
-.circle4{
-    background-color: #43E6FC;
+.message-text {
+  margin-left: 4rem;
 }
 
-.purple{
-    background-color:#B38BFA;
+.message-text {
+  word-wrap: break-word; /* Allow long words to wrap */
 }
 
-.pink{
-    background-color:#FF79F2;
+.send {
+  border: none;
+  background-color: white;
+  position: absolute;
+  bottom: 3rem;
+  right: 2rem;
 }
 
-.orange{
-    background-color:#F19576;
+.logo {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 1rem;
 }
 
-.sky-blue{
-    background-color:#43E6FC;
+.notes-title {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
 }
 
-.blue{
-    background-color:#0047FF;
+.circle1 {
+  background-color: #0047ff;
 }
 
-.purple-blue{
-    background-color:#6691FF;
+.circle2 {
+  background-color: #ffc0c0;
+}
+
+.circle3 {
+  background-color: #f19576;
+}
+
+.circle4 {
+  background-color: #43e6fc;
+}
+
+.purple {
+  background-color: #b38bfa;
+}
+
+.pink {
+  background-color: #ff79f2;
+}
+
+.orange {
+  background-color: #f19576;
+}
+
+.sky-blue {
+  background-color: #43e6fc;
+}
+
+.blue {
+  background-color: #0047ff;
+}
+
+.purple-blue {
+  background-color: #6691ff;
 }
