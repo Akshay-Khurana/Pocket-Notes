@@ -103,12 +103,12 @@ const NoteBox = ({ selectedChatGroup, colorName, isMobile }) => {
         ))}
       </div>
       <div className="send-msg" style={isMobile ? { width: "100%" } : {}}>
-        <input
+        <textarea
           type="text"
           placeholder="Enter your text here ..."
           value={inputText}
           onChange={handleInputChange}
-          style={isMobile ? { width: "93.5%" } : {}}
+          style={isMobile ? { width: "95.5%" } : {}}
         />
 
         <button className="send" onClick={addToChat}>

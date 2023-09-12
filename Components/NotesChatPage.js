@@ -32,12 +32,12 @@ const NotesChatPage = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+}, []);
 
   const [isMobile, setIsMobile] = useState(false);
 
   const openModal = () => {
-    setIsModalOpen(true);
+        setIsModalOpen(true);
   };
 
   const closeModal = () => {
