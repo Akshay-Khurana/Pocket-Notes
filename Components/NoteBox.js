@@ -44,6 +44,13 @@ const NoteBox = ({ selectedChatGroup, colorName, isMobile }) => {
     }
   };
 
+  const handleEnterKeyPress = (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault(); // Prevent the default Enter key behavior (e.g., newline in the textarea)
+      addToChat();
+    }
+  };
+
   // Helper function to get month name
   const getMonthName = (monthIndex) => {
     const months = [
@@ -108,6 +115,7 @@ const NoteBox = ({ selectedChatGroup, colorName, isMobile }) => {
           placeholder="Enter your text here ..."
           value={inputText}
           onChange={handleInputChange}
+          onKeyDown={handleEnterKeyPress}
           style={isMobile ? { width: "95.5%" } : {}}
         />
 
